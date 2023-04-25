@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "git-diff-tester"
+version = "0.1.0"
+description = ""
+authors = ["dan-ash <danash001@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^8.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.3.1"
+GitPython="^3.1.31"
+click="^8.1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
